@@ -21,11 +21,15 @@ def gaussian_filter(im, sigma):
 
 im = array(Image.open('images/empire.jpg').convert('L'))
 make_contour(im)
+title('original')
 
 im2 = gaussian_filter(im, 2)
+title('gaussian filter with sigma=2')
 
 im5 = gaussian_filter(im, 5)
+title('gaussian filter with sigma=5')
 
 im10 = gaussian_filter(im, 10)
+title('gaussian filter with sigma=10')
 
 show()
