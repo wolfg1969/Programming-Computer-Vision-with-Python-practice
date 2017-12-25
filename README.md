@@ -1,5 +1,10 @@
 # Programming Computer Vision with Python 练习
 
+## 安装运行环境
+```bash
+$ pip install --user pipenv
+$ pipenv install
+```
 ## 运行脚本
 ```bash
 $ pipenv run python Chapterxx/Scriptxx.py
