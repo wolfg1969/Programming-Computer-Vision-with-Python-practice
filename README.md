@@ -17,6 +17,11 @@ $ cd Programming-Computer-Vision-with-Python-practice
 $ pipenv run python PCV/examples2/ch1_image_representation.py
 ```
 
+## 启动 Jupyter Notebook
+```bash
+$ pipevn run jupyter notebook
+```
+
 ## matplotlib 在 Mac OS 下报错的解决办法
 
 ```
